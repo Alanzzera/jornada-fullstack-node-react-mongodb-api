@@ -1,6 +1,9 @@
 import axios from "axios";
+import "dotenv/config";
 
-const URL = "http://localhost:3000";
+const NODE_ENV = ProcessingInstruction.env.NODE_ENV
+
+const URL = "http://localhost:3000/api";
 
 const responseArtists = await axios.get(`${URL}/artists`);
 export const artistsArray = responseArtists.data;
