@@ -15,7 +15,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Alanzzera/jornada-fullstack-node-react-mongodb-api/issues"
-  },
-  "homepage": "https://github.com/Alanzzera/jornada-fullstack-node-react-mongodb-api#readme",
-  "description": ""
+  }
 }
